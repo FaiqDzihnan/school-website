@@ -1,0 +1,56 @@
+.admission-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .admission-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .timeline-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .timeline-column {
+    flex: 1;
+    margin: 0 10px;
+    border-right: #ccc 1px solid;
+  }
+  
+  .timeline-column h3 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .timeline-column ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .timeline-column ol {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  
+  .timeline-column li {
+    color: #555;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,73 @@
+.portal-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sidebar {
+  text-align: center;
+  width: 25%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  width: 150px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: black solid 2px;
+}
+
+.submenu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.submenu li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.submenu li.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+}
+
+.grades-table, .bills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.grades-table th, .bills-table th, .grades-table td, .bills-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.grades-table th, .bills-table th {
+  background-color: #f2f2f2;
+}
+
+.btn-change {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-change:hover {
+  background-color: black;
+}

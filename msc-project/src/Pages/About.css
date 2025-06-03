@@ -1,0 +1,45 @@
+.about-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .staff-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .staff-member {
+    flex: 1 1 30%;
+    text-align: center;
+  }
+  
+  .staff-member img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+  }
+  
+  .staff-member p {
+    color: #333;
+    margin-top: 10px;
+  }

@@ -1,0 +1,95 @@
+.carousel-section {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .welcome-section {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .welcome-photo {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 20px;
+  }
+  
+  .welcome-text {
+    flex: 2;
+  }
+  
+  .vision-mission-section {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+  }
+  
+  .vision, .mission {
+    max-width: 45%;
+  }
+  
+  .facility-section {
+    padding: 20px;
+  }
+  
+  .facility-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .facility-list p {
+    flex: 1 1 30%;
+    margin: 5px 0;
+  }
+  
+  .news-section, .admission-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+
+  .admission-section-left {
+    text-align: center;
+    align-items: center;
+  }
+
+  .reg {
+    text-align: center;
+  }
+  
+  .news-info, .new-students {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+  .news-info ul li a, .new-students ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .news-info ul li a:hover, .new-students ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .register-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .register-button:hover {
+    background-color: black;
+  }
+
+  .register-button a {
+    text-decoration: none;
+    color: white;
+  }
+  
